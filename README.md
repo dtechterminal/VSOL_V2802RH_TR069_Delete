@@ -40,7 +40,7 @@ the firmware to create an extra WAN interface that:
 	•	Does appear on Status as soon as CWMP / TR-069 wakes up again.
 	•	Breaks normal connectivity unless you manually delete it with delClick(2);.
 
-router_wan_admin.py automates that exact cleanup.
+script.py automates that exact cleanup.
 
 ⸻
 
@@ -69,7 +69,7 @@ If your router presents a real TLS cert, remove that option.
 
 ## Quick start
 
-python router_wan_admin.py \
+python script.py \
   --url      http://192.168.1.1 \
   --user     admin \
   --password mySecret \
@@ -102,7 +102,7 @@ Either edit those or override them on the command-line, as shown above.
 Unsure which index the ghost entry takes? Check Status first—the order
 matches the JavaScript call.
 
-Run python router_wan_admin.py --help for the full flag list.
+Run python script.py --help for the full flag list.
 
 ⸻
 
