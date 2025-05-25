@@ -129,3 +129,4 @@ _extract_nonce() if needed.
 	•	TLS verification is disabled; run only on trusted local networks.
 	•	Comment out the TR-069 check if you don’t care about that guard.# VSOL_V2802RH_TR069_Delete
 # VSOL_V2802RH_TR069_Delete
+# VSOL_V2802RH_TR069_Delete
