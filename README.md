@@ -1,5 +1,3 @@
-# router_wan_admin
-
 > **Target hardware:** **VSOL V2802RH** (Broadcom/TrendChip firmware)  
 > **Target ISP quirk:** Hathway India – spawns a hidden WAN profile even when CWMP / TR-069 is disabled.
 
@@ -128,5 +126,3 @@ Caveats & tips
 _extract_nonce() if needed.
 	•	TLS verification is disabled; run only on trusted local networks.
 	•	Comment out the TR-069 check if you don’t care about that guard.# VSOL_V2802RH_TR069_Delete
-# VSOL_V2802RH_TR069_Delete
-# VSOL_V2802RH_TR069_Delete
