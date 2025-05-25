@@ -122,7 +122,7 @@ No external parsers, no brittle DOM walking.
 ⸻
 
 Caveats & tips
-	•	Firmware updates might rename the hidden field; tweak the regex in
-_extract_nonce() if needed.
-	•	TLS verification is disabled; run only on trusted local networks.
-	•	Comment out the TR-069 check if you don’t care about that guard.# VSOL_V2802RH_TR069_Delete
+
+	• Firmware updates might rename the hidden field; tweak the regex in_extract_nonce() if needed.
+	• TLS verification is disabled; run only on trusted local networks.
+	• Comment out the TR-069 check if you don’t care about that guard.# VSOL_V2802RH_TR069_Delete
